@@ -34,7 +34,7 @@
 //            res.redirect("/");
 //            return null;
 //        }, new HandlebarsTemplateEngine());
-//
+
 //        //get: show all tasks
 //        get("/", (req, res) -> {
 //            Map<String, Object> model = new HashMap<>();
@@ -48,7 +48,7 @@
 //            Map<String, Object> model = new HashMap<>();
 //            return new ModelAndView(model, "task-form.hbs");
 //        }, new HandlebarsTemplateEngine());
-//
+
 //        //task: process new task form
 //        post("/tasks", (req, res) -> { //URL to make new task on POST route
 //            Map<String, Object> model = new HashMap<>();
@@ -58,7 +58,7 @@
 //            res.redirect("/");
 //            return null;
 //        }, new HandlebarsTemplateEngine());
-//
+
 //        //get: show an individual task
 //        get("/tasks/:id", (req, res) -> {
 //            Map<String, Object> model = new HashMap<>();
